@@ -17,3 +17,10 @@ matplotlib
 seaborn
 mlxtend
 sqlite3    # builtin, don't add to pip; included for clarity
+
+# Install/ensure required libs. If you already installed them in the correct env, this is safe.
+# Run this cell once; if it installs/updates packages, restart kernel afterwards.
+
+!pip install --upgrade pip
+!pip install "numpy<2.3.0" "scipy>=1.10.0,<1.14.0" pandas matplotlib seaborn scikit-learn mlxtend sqlalchemy ipykernel nltk textblob wordcloud
+
