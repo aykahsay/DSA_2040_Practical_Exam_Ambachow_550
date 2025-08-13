@@ -27,7 +27,7 @@ The distribution of sales across countries is heavily skewed towards the **Unite
 The bar chart above visualizes total monthly sales for the year 2011 based on data from the SalesFact table.
 <img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/19a486b0-7a39-4486-856b-a64a638f1ecf" />
 
-### **3. Key Insights**
+## Key Insights**
 
 * **Market Concentration:** The UK dominates sales, suggesting limited international penetration.
 * **Seasonal Spikes:** Significant end-of-year increases suggest holiday or seasonal demand effects.
