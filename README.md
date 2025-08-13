@@ -61,8 +61,10 @@ I chose the Star Schema because it is simpler and denormalized, which allows for
 * **Dataset**: `Cleaned_iris_data.csv` in `Data_Mining/data/`
 * **Visualizations**:
 
-  * `elbow_curve.png` → Optimal K
-  * `cluster_scatter.png` → Scatter plots of clusters
+  * `elbow_curve.png` → Optimal K=3
+  ### `cluster_scatter.png` → Scatter plots of clusters
+  <img width="702" height="547" alt="image" src="https://github.com/user-attachments/assets/9e5d7ee7-3846-44e0-8f0a-a3b8654acdd8" />
+Clustering Accuracy: 0.833
 * **Analysis**: Discuss cluster quality, misclassifications, and applications. Include visuals in `Report/Report_Kmean_clustering.md`.
 
 ---
