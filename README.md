@@ -1,7 +1,7 @@
 # Data-Driven Insights: Warehouse, Clustering, Classification, and Market Basket Analysis
 
 This repository contains the submissions for the **DSA 2040 End Semester Practical Exam**, covering **Data Warehousing, K-Means Clustering, Classification, and Association Rule Mining**. The project is organized into modular folders for clarity.
-
+This is the General Overview specific reports are porvided in each folder.
 ---
 
 ## **Folder Overview**
@@ -85,9 +85,29 @@ Clustering Accuracy: 0.833
 
   * Synthetic transactional data generated in `scripts/`
   * Apriori applied; top 5 rules saved in `rules_top5.png`
+<img width="1189" height="789" alt="image" src="https://github.com/user-attachments/assets/cf77f495-18be-4046-ab0c-f4b8817cb87a" />
 
-* **Analysis**: Compare classifiers, interpret rules, and discuss applications. Include images in the report.
+Rule: {chips} → {beer} (Lift=5, Confidence=100%)
 
+Retail Actions:
+
+Place together – Same aisle or endcap display.
+
+Bundle deals – "Buy chips, get beer discount."
+
+Restock jointly – Avoid out-of-stock on either.
+
+Recommend online – Suggest beer when chips are in cart.
+
+Why?
+
+Perfect association (always bought together).
+
+Ideal for parties/game nights.
+
+Much stronger than common pairs like milk/bread.
+
+Profit Tip: Capitalize on this pair for promotions first!
 ---
 
 ## **Report**
