@@ -34,3 +34,29 @@ Country	Object (string)	- Check for missing/null values
 <img width="963" height="673" alt="image" src="https://github.com/user-attachments/assets/f16a6544-fec6-4e04-9512-8e909eb63152" />
 
 I chose the Star Schema because it is simpler and denormalized, which allows for faster query performance in OLAP systems. It reduces the number of joins needed compared to a Snowflake Schema, making it easier for analysts to write and understand queries. This design also improves query execution speed and supports intuitive reporting and visualization.
+
+### Data Mining and Association 
+Section3_DataMining/
+│
+├── data/                     # Optional: store preprocessed data or synthetic transactions
+│   ├── iris_preprocessed.csv
+│   └── transactions.csv
+│
+├── images/                   # Store all visualizations
+│   ├── decision_tree.png
+│   ├── confusion_matrix.png
+│   └── apriori_rules.png
+│
+├── scripts/
+│   ├── classification.py     # Part A: Decision Tree & KNN classifiers
+│   └── association_rules.py  # Part B: Synthetic data generation + Apriori rules
+│
+├── notebooks/                # Optional: Jupyter notebooks for experimentation
+│   └── section3_exploration.ipynb
+│
+├── outputs/                  # Optional: save metrics, rules, CSV outputs
+│   ├── metrics.txt
+│   └── top_rules.csv
+│
+└── README.md                 # Include instructions, analysis, and discussion of results
+
