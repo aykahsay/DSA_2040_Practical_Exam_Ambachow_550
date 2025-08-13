@@ -29,3 +29,6 @@ Country	Object (string)	- Check for missing/null values
 - Clean strings (trim whitespace, fix inconsistent casing)
 - Group rare countries if necessary
 - Validate against a country list if needed
+
+## Star Schema
+I chose the Star Schema because it is simpler and denormalized, which allows for faster query performance in OLAP systems. It reduces the number of joins needed compared to a Snowflake Schema, making it easier for analysts to write and understand queries. This design also improves query execution speed and supports intuitive reporting and visualization.
