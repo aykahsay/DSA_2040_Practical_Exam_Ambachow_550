@@ -74,7 +74,12 @@ Clustering Accuracy: 0.833
 * **Classification**:
 
   * Decision Tree and KNN (k=5) in `scripts/`
-  * `tree_visualization.png` → Visualize the Decision Tree
+ <img width="950" height="636" alt="image" src="https://github.com/user-attachments/assets/956ac3bd-9ff6-4e06-9331-a92e2f4f764a" />
+ - Decision Tree Performance:
+ - Accuracy: 1.00
+ - Precision: 1.00
+ - Recall: 1.00
+ - F1-score: 1.00
 
 * **Association Rule Mining**:
 
