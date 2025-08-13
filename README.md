@@ -1,11 +1,4 @@
-# DSA_2040_Practical_Exam_Ambachow_550
-
-
-Perfect! Based on your folder structure, here’s a **clean, general README** tailored to your setup, with clear guidance on where to insert images and outputs.
-
----
-
-# DSA 2040 Practical Exam – Ambachow 550
+# Data-Driven Insights: Warehouse, Clustering, Classification, and Market Basket Analysis
 
 This repository contains the submissions for the **DSA 2040 End Semester Practical Exam**, covering **Data Warehousing, K-Means Clustering, Classification, and Association Rule Mining**. The project is organized into modular folders for clarity.
 
