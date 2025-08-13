@@ -25,7 +25,24 @@ Target (for evaluation only): species (`setosa`, `versicolor`, `virginica`)
 ## Workflow
 
 1. **Load and preprocess data**: standardize features using `StandardScaler`.
-2. **Elbow Method**: determine optimal number of clusters (`k=3`).
+   6. **Visualization of clusters**:
+
+   * Scatter plot of **Petal Length vs Petal Width** colored by clusters, with centroids
+   * Optional: overlay **true species labels** for comparison
+2. **Feature distributions**:
+
+   * Histograms/KDE plots of features by species
+     <img width="386" height="290" alt="image" src="https://github.com/user-attachments/assets/74562cc8-1580-4c48-a031-3e9092e28626" />
+
+   * Boxplots of features by species
+     <img width="554" height="455" alt="image" src="https://github.com/user-attachments/assets/f5746b05-f7bd-40f9-94e8-484567227a46" />
+
+     ---
+<img width="554" height="432" alt="image" src="https://github.com/user-attachments/assets/68702a96-de84-4f0c-a833-ddd8d1d07483" />
+
+   * These visualizations help interpret cluster separation
+
+3. **Elbow Method**: determine optimal number of clusters (`k=3`).
    
 <img width="540" height="393" alt="image" src="https://github.com/user-attachments/assets/7e83a1f2-833e-4713-ba90-7e2ed596a7e0" />
 
@@ -37,20 +54,6 @@ Target (for evaluation only): species (`setosa`, `versicolor`, `virginica`)
 
    * **Clustering Accuracy**: 0.833 (pseudo-accuracy by majority voting)
    * **Adjusted Rand Index (ARI)**: measures agreement with true labels
-6. **Visualization of clusters**:
-
-   * Scatter plot of **Petal Length vs Petal Width** colored by clusters, with centroids
-   * Optional: overlay **true species labels** for comparison
-7. **Feature distributions**:
-
-   * Histograms/KDE plots of features by species
-     <img width="386" height="290" alt="image" src="https://github.com/user-attachments/assets/74562cc8-1580-4c48-a031-3e9092e28626" />
-
-   * Boxplots of features by species
-     <img width="554" height="455" alt="image" src="https://github.com/user-attachments/assets/f5746b05-f7bd-40f9-94e8-484567227a46" />
-<img width="554" height="432" alt="image" src="https://github.com/user-attachments/assets/68702a96-de84-4f0c-a833-ddd8d1d07483" />
-
-   * These visualizations help interpret cluster separation
 
 ---
 
