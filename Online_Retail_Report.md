@@ -21,7 +21,9 @@ The distribution of sales across countries is heavily skewed towards the **Unite
 * The chart underscores a high market concentration, with the majority of revenue generated domestically.
 
 <img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/7135934c-da1e-4cea-b0a4-a3ccc6312465" />
-## **3. Monthly Sales Analysis for 2011**
+
+---
+### **3. Monthly Sales Analysis for 2011**
 The bar chart above visualizes total monthly sales for the year 2011 based on data from the SalesFact table.
 <img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/19a486b0-7a39-4486-856b-a64a638f1ecf" />
 
