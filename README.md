@@ -8,15 +8,13 @@ This is the General Overview specific reports are porvided in each folder.
 
 ```
 DSA_2040_PRACTICAL_EXAM_AMBACHO_550/
-├── Classification and Association Rule Mining/
-│   ├── Data/                   # Preprocessed Iris dataset, synthetic transactional data
-│   ├── scripts/                # classification_iris.py, mining_iris_basket.py
-│  
 ├── Data_Mining/
-│   ├── data/                   # Preprocessed data, cleaned datasets
-│   ├── design/                 # Any diagrams or design notes
-│   ├── scripts/                # clustering_iris.py
+│   ├── Data/                   # Preprocessed Iris dataset, synthetic transactional data
+│   ├── scripts/
+│   ├── Classification and Association Rule Mining/
+│   ├── Clustering            # classification_iris.py, mining_iris_basket.py
 │  
+│ 
 ├── Data_Warehousing/
 │   ├── data/                   # Raw or synthetic retail data
 │   ├── design/                 # schema_diagram.png
@@ -25,16 +23,6 @@ DSA_2040_PRACTICAL_EXAM_AMBACHO_550/
 │   ├── OLAP/                   # SQL queries for roll-up, drill-down, slice
 │   ├── reports/                # ETL and OLAP analysis
 │   └── scripts/                # SQL scripts or additional Python scripts
-│
-├── K_Mean_Clustering/
-│   ├── scripts/                # clustering_iris.py
-│   ├── images/                 # elbow_curve.png, cluster_scatter.png
-│
-├── Report/
-│   ├── Data Warehousing and Data Mining Questions.pdf
-│   └── Report_Kmean_clustering.md
-│
-├── Online_Retail_Report.md
 ├── README.md
 └── requirements.txt
 ```
